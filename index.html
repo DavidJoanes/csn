@@ -499,7 +499,7 @@
                                             
                                             <div class="loginForm-input-container">
                                                 <div class="loginForm-text-input-icon Username"></div>
-                                                <input class="loginForm-text-input" type="text" invalidplaceholder="Username" name="cn" onfocus="try {
+                                                <input class="loginForm-text-input" id="username" type="text" invalidplaceholder="Username" name="cn" onfocus="try {
                                                             if (focusStyle)
                                                                 focusStyle(this)
                                                         } catch (err) {
@@ -518,7 +518,7 @@
                                             
                                             <div class="loginForm-input-container">
                                                 <div class="loginForm-text-input-icon Password"></div>
-                                                <input class="loginForm-text-input" type="password" invalidplaceholder="Password" name="[password]" onfocus="try {
+                                                <input class="loginForm-text-input" id="password" type="password" invalidplaceholder="Password" name="[password]" onfocus="try {
                                                             if (focusStyle)
                                                                 focusStyle(this)
                                                         } catch (err) {
@@ -533,7 +533,7 @@
                                     <tr>
                                         <td class="loginForm-button-cell" align="right" colspan="2">
                                             
-                                            <input id="LoginButton" class="WebOSButton" type="submit" name="button" alt="Login Button" value="Log In" name="I1" onmouseover="try {
+                                            <button id="LoginButton" class="WebOSButton" type="submit" name="button" alt="Login Button" value="Log In" name="I1" onmouseover="try {
                                                         if (toggleHover)
                                                             toggleHover(this)
                                                     } catch (err) {
@@ -541,7 +541,7 @@
                                                                 if (toggleHover)
                                                                     toggleHover(this)
                                                             } catch (err) {
-                                                            }">Log In
+                                                            }">Log In</button>
                                             
                                         </td>
                                     </tr>
