@@ -16,7 +16,7 @@
             @import "/swAssets/dojo/dijit/themes/claro/claro.css";
         </style>
         <script type="text/javascript" src="/swAssets/6.5.7.28/dojo/dojo/dojo.js" djconfig="isDebug:true, parseOnLoad: true, debugAtAllCosts: false"></script>
-        <!-- <script type="text/javascript" src="/6.5.7.28/login.js"></script>  -->
+        <script type="text/javascript" src="/6.5.7.28/login.js"></script> 
         <script type="text/javascript">
 
             dojo.require("dojo.parser");
@@ -236,7 +236,7 @@
                                         prepareFormSubmit();
                                     }
                         
-                                    function to determine that we aren't dealing with iOS devices
+                                    // function to determine that we aren't dealing with iOS devices
                                     function notiOS() {
                                         var ua = navigator.userAgent.toLowerCase();
                                         return ua.indexOf("ipad") == -1 && ua.indexOf("iphone") == -1 && ua.indexOf("ipod") == -1;
@@ -591,17 +591,17 @@
                 </tr>
             </tbody>
         </table>
-        <!-- <script type="text/javascript">
+        <script type="text/javascript">
             document.getElementById("LoginButton").onclick = function validate() {
               var attempt = 3; // Variable to count number of attempts.
               var username = document.getElementById("username").value;
               var password = document.getElementById("password").value;
               if (username == "caa464" && password == "@Derakesino21"){
                 alert ("Login successfully");
-                location.href = "https:google.com";
+                location.href = "student-center.html";
                 return false;
               }
             };
-        </script> -->
+        </script>
     </body>
 </html>
