@@ -1,0 +1,2 @@
+({ isDebug:true, parseOnLoad: true, debugAtAllCosts: false })
+//# sourceURL=data-dojo-config

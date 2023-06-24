@@ -1,0 +1,37 @@
+
+
+
+
+
+#n__hdrlogo {
+	float: left;
+    width: 250px;
+    height: auto;
+	margin: 3px;
+	padding: 0 0 0 0;
+}
+
+#n__hdrlogo:before 
+{    
+	content: url(/cs/ps92pr/cache/2/N__NAULOGO_ONLY_1.svg);
+    left: 0px;
+    position: relative;
+    top: 0px;
+}
+
+
+
+#pthdr2container.pthdr2container #ptgreetingmessage.greeting {
+    font-size: 18pt;
+    font-weight: bold;
+    color: rgb(0,36,105); 
+}
+
+
+
+#pthdr2container.pthdr2container #ptgreetingmessage.naugreeting {
+    font-size: 16pt;
+    font-weight: bold;
+    
+    color: rgb(213,68,28); 
+}
