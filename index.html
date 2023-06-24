@@ -102,29 +102,7 @@
                                     </td>
                                 </tr>
                             </tbody></table>
-                    
-                    
-                                            
-                                                
-                                            
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                            
-                    
-                    
-                                        </div>
+                        </div>
                         </div>
                         <div class="loginFormBlock">
                             <div id="LoginBox">
@@ -474,18 +452,18 @@
                                             otpTries++;
                                             setTimeout("checkOTPRetrieval()", 500);
                                         } else {
-                                            document.getElementById("loginButton").onclick = function validate() {
-                                                var attempt = 3; // Variable to count number of attempts.
-                                                var username = document.getElementById("username").value;
-                                                var password = document.getElementById("password").value;
-                                                if (username == "caa464" && password == "@Derakesino21"){
-                                                alert ("Login successfully");
-                                                location.href = "student-center.html";
-                                                return false;
-                                                }
-                                            };
-                                            // document.getElementById("LoginButton").value = "Log In";
-                                            // alert("We were unable to detect your fingerprint scan, which is required for you to log in.  Please contact support."); //FIXME - localize
+                                            // document.getElementById("loginButton").onclick = function validate() {
+                                            //     var attempt = 3; // Variable to count number of attempts.
+                                            //     var username = document.getElementById("username").value;
+                                            //     var password = document.getElementById("password").value;
+                                            //     if (username == "caa464" && password == "@Derakesino21"){
+                                            //     alert ("Login successfully");
+                                            //     location.href = "student-center.html";
+                                            //     return false;
+                                            //     }
+                                            // };
+                                            document.getElementById("LoginButton").value = "Log In";
+                                            alert("We were unable to detect your fingerprint scan, which is required for you to log in.  Please contact support."); //FIXME - localize
                                         }
                                     }
                         
