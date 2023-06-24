@@ -1,0 +1,1142 @@
+
+
+
+.psa_pref_flag {
+    margin-left:33%;
+    }
+    
+    
+    @media only screen and (orientation:landscape) {
+        :root.psc_form-small .psa_pref_flag
+        {
+           margin-left:33%;
+        }    
+        }
+    
+    @media only screen and (orientation:portrait) {
+        :root.psc_form-small .psa_pref_flag
+        {
+           margin-left:auto;
+        }    
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    .ps_mheader-section2 {
+        margin-right: 6.5em;
+        margin-left: 7.5em;
+    }
+    
+    .ps_mheader-section2 .ps_system_cont {
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .psa_help_page .ps_mheader-section2 {
+      margin-right: 5em;
+        margin-left: 5em;
+    
+    }
+    .psc_modal-pagetitle{	
+        white-space:nowrap;
+        overflow:hidden;
+        text-overflow:ellipsis;
+    }
+    
+    
+    
+    @media only screen and (orientation:portrait) {
+        :root.psc_form-small .psa_address_grid .ps_box-grid-title {
+       position:relative;
+       white-space:nowrap;
+       width:21em;
+       overflow:hidden;
+    }
+    }
+    @media only screen and (orientation:portrait) {
+        :root.psc_form-small .psa_address_grid .ps_grid-title, .ps_header-group{
+       color:rgb(164,086,023);
+       font-weight:bold;
+       white-space:nowrap;	
+       text-overflow:ellipsis;
+       overflow:hidden;
+    }
+    }
+    
+    
+    .psa_address_ellipsis .ps_box-value {
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+      width:12em;
+      min-width:11em;
+    }
+    .psa_address_ellipsis_mf .ps_box-value {
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+      width:23em;
+      min-width:23em;
+     }
+    .psa_address_ellipsis_lf .ps_box-value {
+      width:23em;
+      min-width:23em;
+     }
+    .psa_page-secsel {
+      min-width:36em;
+      min-height:35em;
+    }
+    .psa_address_ellipsis_sel .ps_box-value {
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+      width:31em;
+      min-width:31em;
+     }
+    .psa_address_chevron .ps_box-value {
+        visibility:hidden;	
+     }
+    .psa_address_from .ps_box-link > .ps-link-wrapper > .ps-link {
+        max-width:3em;
+        width:fixed; 
+    }
+    
+    :root.psc_form-large .psa_names_labels .ps_box-label {
+        width:40%;
+        text-align:right;
+        padding-right:0.76em;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        }   
+    :root.psc_form-medium .psa_names_labels .ps_box-label {
+        width:45%;
+        text-align:right;
+        padding-right:0.76em;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        }     
+    @media only screen and (orientation:landscape) {
+        :root.psc_form-small .psa_names_labels .ps_box-label {
+        width:49%;
+        text-align:right;
+        padding-right:0.76em;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        } 
+        }
+    :root.psc_form-medium .psa_names_rlabels .ps_box-label {
+        width:48%;
+        text-align:right;
+        padding-right:0.76em;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        } 
+    @media only screen and (orientation:portrait) {
+        :root.psc_form-small .psa_demographic_labels .ps_box-label {
+        overflow:hidden;
+        padding-right:0em;
+        text-overflow:ellipsis;
+        } 
+        }
+    .psa_names_hdr_label .ps_box-label {
+        width:11%;
+        text-align:right;
+        padding-right:0.76em;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        } 
+    
+    
+    
+    
+    .psa_profile_tile .ps_box-label {
+        width:auto;
+        text-align:right;
+        padding-right:0.76em;
+        overflow:hidden;
+        text-overflow:initial;	
+        } 
+    
+    .psa_profile_grid .ps_box-link > .ps-link-wrapper > .ps-link {
+      color:rgb(0,0,0);
+      font-weight:bold;
+       max-width:17em; 
+        text-overflow:ellipsis;  
+    }
+    
+    .psa_contactsmff_grid .ps_box-link > .ps-link-wrapper > .ps-link {
+       max-width:15em; 
+        text-overflow:ellipsis;  
+    }
+    .psa_contacts_icon .ps-button {
+        visibility:hidden;	
+     }
+    
+    .psa_view_email {
+    margin-left:18%;
+    }
+    
+    :root.psc_form-xlarge .psa_contacts_wrap .ps_box-value{
+    overflow-wrap:break-word;
+    width:40em !important;
+    }
+    :root.psc_form-xlarge .psa_email_labels .ps_box-label {
+        width:18%;
+        text-align:right;
+        padding-right:0.76em;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        } 
+    
+    :root.psc_form-large .psa_contacts_wrap .ps_box-value{
+    overflow-wrap:break-word;
+    width:40em !important;
+    }
+    :root.psc_form-large .psa_email_labels .ps_box-label {
+        width:18%;
+        text-align:right;
+        padding-right:0.76em;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        } 
+    
+    :root.psc_form-medium .psa_contacts_wrap .ps_box-value{
+    overflow-wrap:break-word;
+    width:25em !important;
+    }
+    :root.psc_form-medium .psa_email_labels .ps_box-label {
+        width:18%;
+        text-align:right;
+        padding-right:0.76em;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        } 
+    
+    :root.psc_form-small .psa_contacts_wrap .ps_box-value{
+    overflow-wrap:break-word;
+    }
+    .psa_contactsph_wrap .ps_box-value{
+    overflow-wrap:break-word;
+    }
+    
+    @media only screen and (orientation:portrait) {
+        :root.psc_form-small .psa_ethnic_grid .ps_box-link > .ps-link-wrapper > .ps-link {
+        max-width:12em; 
+      text-overflow:ellipsis;  
+    }
+    }
+    
+    @media only screen and (orientation:portrait) {
+        :root.psc_form-medium .psa_ethnic_grid .ps_box-link > .ps-link-wrapper > .ps-link {
+        max-width:20em; 
+      text-overflow:ellipsis;  
+    }
+    }
+    
+    @media only screen and (orientation:portrait) {
+        :root.psc_form-small .psa_ethnic_q_info .ps_box-value {
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+      width:13em;
+      min-width:13em;
+     }
+    }
+    
+    @media only screen and (orientation:portrait) {
+        :root.psc_form-small .psa_ethnic_bgrd .ps_box-value {
+      white-space:normal;
+      width:21em;
+      min-width:21em;
+     }
+    }
+    
+    @media only screen and (orientation:portrait) {
+        :root.psc_form-small .psa_ethn_chk .ps-label{
+    white-space:nowrap;
+    font-weight:bold;
+    width:22em;
+    max-width:22em;
+      text-overflow:ellipsis; 
+    overflow:hidden; 
+    }
+    }
+    @media only screen and (orientation:portrait) {
+        :root.psc_form-small .psa_ethn_chk .ps_box-label{
+    width:22em;
+    }
+    }
+    
+    
+    
+    @media only screen and (orientation:portrait) {
+        :root.psc_form-small .psa_ferpa_grid .ps_box-link > .ps-link-wrapper > .ps-link {
+        min-width:9em; 
+    width:9em; 
+      text-overflow:ellipsis;  
+    }
+    }
+    
+    @media only screen and (orientation:portrait) {
+        :root.psc_form-medium .psa_ferpa_grid .ps_box-link > .ps-link-wrapper > .ps-link {
+        min-width:12em; 
+    width:12em; 
+      text-overflow:ellipsis;  
+    }
+    }
+    
+    
+    
+    
+    .psa_bio_grid .ps_grid-flex .ps_grid-cell .psc_num {
+      text-align:left;  
+    }
+    .psa_bio_grid th.ps_grid-col.psc_num {
+      text-align:left;  
+    }
+    .psa_bio_grid .ps_box-link > .ps-link-wrapper > .ps-link {
+        min-width:30em; 
+        width:30em; 
+        text-overflow:ellipsis;  
+    }
+    
+    @media only screen and (orientation:portrait) {
+        :root.psc_form-small .psa_persbio_grid .ps_box-link > .ps-link-wrapper > .ps-link {
+       color:rgb(0,0,0);
+      font-weight:bold;
+       max-width:16em; 
+        text-overflow:ellipsis;  
+    }
+    }
+    @media only screen and (orientation:landscape) {
+        :root.psc_form-small .psa_persbio_grid .ps_box-link > .ps-link-wrapper > .ps-link {
+       color:rgb(0,0,0);
+      font-weight:bold;
+       max-width:30em; 
+        text-overflow:ellipsis;  
+    }
+    }
+    :root.psc_form-medium .psa_persbio_grid .ps_box-link > .ps-link-wrapper > .ps-link {
+       color:rgb(0,0,0);
+         max-width:16em; 
+        text-overflow:ellipsis;  
+    }
+    :root.psc_form-large .psa_persbio_grid .ps_box-link > .ps-link-wrapper > .ps-link {
+         width:15em;
+      min-width:15em; 
+    overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;  
+    }
+    :root.psc_form-xlarge .psa_persbio_grid .ps_box-link > .ps-link-wrapper > .ps-link {
+         width:15em;
+      min-width:15em; 
+    overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;  
+    }
+    @media only screen and (orientation:portrait) {
+        :root.psc_form-small .psa_biog_value .ps_box-value {
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+      width:16em;
+      min-width:16em;
+     }
+    }
+    @media only screen and (orientation:landscape) {
+        :root.psc_form-small .psa_biog_value .ps_box-value {
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+      width:30em;
+      min-width:30em;
+     }
+    }
+    :root:not(.psc_form-small) .psa_bio_labels .ps-label {
+        text-align:right;
+        padding-right:0.76em;
+        white-space:nowrap;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        } 
+    :root:not(.psc_form-small) .psa_bio_labels .ps_box-label {
+        width:40%;
+            }
+    :root.psc_form-small .psa_bio_labels .ps-label {
+        white-space:nowrap;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        } 
+    @media only screen and (orientation:portrait) {
+        :root.psc_form-small .psa_oth_field .ps_box-label {
+      display:block;
+    text-align:left;
+    width:100%;
+     }
+    }
+    
+    .psa_alert_bio .ps-label::after {
+        content: url(/cs/spcssprd/cache/PS_WARN_S_FL_1.svg);
+    margin-left:5px ;
+    }
+    .psa_alert_biog .ps-link::after {
+        content: url(/cs/spcssprd/cache/PS_WARN_S_FL_1.svg);
+    margin-left:5px ;
+    }
+    
+    .psa_button_bar_labels .ps_box-label {
+        height: 2.5em;
+    }
+    
+    .psa_alert_pers .ps_box-label > .ps-label{
+    padding-top: 10px !important;
+    }
+    
+    .psa_biographic_grid .ps_grid-title, .ps_header-group{
+       color:rgb(164,086,023);
+       font-weight:bold;
+       white-space:nowrap;	
+       text-overflow:ellipsis;
+       overflow:hidden;
+    }
+    
+    
+    
+    
+    
+    .psa_page-secmin10x10em {
+      min-width:10em;
+      min-height:10em;
+    }
+    
+    .psa_page-secmin15x15em {
+      min-width:15em;
+      min-height:15em;
+    }
+    
+    .psa_page-secmin20x20em {
+      min-width:20em;
+      min-height:20em;
+    }
+    
+    .psa_page-secmin25x25em {
+      min-width:25em;
+      min-height:25em;
+    }
+    
+    .psa_page-secmin30x30em {
+      min-width:30em;
+      min-height:30em;
+    }
+    
+    .psa_page-secmin35x35em {
+      min-width:35em;
+      min-height:35em;
+    }
+    
+    .psa_page-secmin40x40em {
+      min-width:40em;
+      min-height:40em;
+    }
+    
+    .psa_page-secmin45x45em {
+      min-width:45em;
+      min-height:45em;
+    }
+    
+    .psa_page-secmin50x50em {
+      min-width:50em;
+      min-height:50em;
+    }
+    
+    .psa_page-secmin55x55em {
+      min-width:55em;
+      min-height:55em;
+    }
+    
+    .psa_page-secmin60x60em {
+      min-width:60em;
+      min-height:60em;
+    }
+    
+    
+    
+    
+    .psa_page-secmin15x10em {
+      min-width:15em;
+      min-height:10em;
+    }
+    
+    .psa_page-secmin20x10em {
+      min-width:20em;
+      min-height:10em;
+    }
+    
+    .psa_page-secmin25x10em {
+      min-width:25em;
+      min-height:10em;
+    }
+    
+    .psa_page-secmin30x10em {
+      min-width:30em;
+      min-height:10em;
+    }
+    
+    .psa_page-secmin35x10em {
+      min-width:35em;
+      min-height:10em;
+    }
+    
+    .psa_page-secmin40x10em {
+      min-width:40em;
+      min-height:10em;
+    }
+    
+    .psa_page-secmin45x10em {
+      min-width:45em;
+      min-height:10em;
+    }
+    
+    .psa_page-secmin50x10em {
+      min-width:50em;
+      min-height:10em;
+    }
+    
+    .psa_page-secmin55x10em {
+      min-width:55em;
+      min-height:10em;
+    }
+    
+    .psa_page-secmin60x10em {
+      min-width:60em;
+      min-height:10em;
+    }
+    
+    .psa_page-secmin20x15em {
+      min-width:20em;
+      min-height:15em;
+    }
+    
+    .psa_page-secmin25x15em {
+      min-width:25em;
+      min-height:15em;
+    }
+    
+    .psa_page-secmin30x15em {
+      min-width:30em;
+      min-height:15em;
+    }
+    
+    .psa_page-secmin35x15em {
+      min-width:35em;
+      min-height:15em;
+    }
+    
+    .psa_page-secmin40x15em {
+      min-width:40em;
+      min-height:15em;
+    }
+    
+    .psa_page-secmin45x15em {
+      min-width:45em;
+      min-height:15em;
+    }
+    
+    .psa_page-secmin50x15em {
+      min-width:50em;
+      min-height:15em;
+    }
+    
+    .psa_page-secmin55x15em {
+      min-width:55em;
+      min-height:15em;
+    }
+    
+    .psa_page-secmin60x15em {
+      min-width:60em;
+      min-height:15em;
+    }
+    
+    .psa_page-secmin25x20em {
+      min-width:25em;
+      min-height:20em;
+    }
+    
+    .psa_page-secmin30x20em {
+      min-width:30em;
+      min-height:20em;
+    }
+    
+    .psa_page-secmin35x20em {
+      min-width:35em;
+      min-height:20em;
+    }
+    
+    .psa_page-secmin40x20em {
+      min-width:40em;
+      min-height:20em;
+    }
+    
+    .psa_page-secmin45x20em {
+      min-width:45em;
+      min-height:20em;
+    }
+    
+    .psa_page-secmin50x20em {
+      min-width:50em;
+      min-height:20em;
+    }
+    
+    .psa_page-secmin55x20em {
+      min-width:55em;
+      min-height:20em;
+    }
+    
+    .psa_page-secmin60x20em {
+      min-width:60em;
+      min-height:20em;
+    }
+    
+    .psa_page-secmin30x25em {
+      min-width:30em;
+      min-height:25em;
+    }
+    
+    .psa_page-secmin35x25em {
+      min-width:35em;
+      min-height:25em;
+    }
+    
+    .psa_page-secmin40x25em {
+      min-width:40em;
+      min-height:25em;
+    }
+    
+    .psa_page-secmin45x25em {
+      min-width:45em;
+      min-height:25em;
+    }
+    
+    .psa_page-secmin50x25em {
+      min-width:50em;
+      min-height:25em;
+    }
+    
+    .psa_page-secmin55x25em {
+      min-width:55em;
+      min-height:25em;
+    }
+    
+    .psa_page-secmin60x25em {
+      min-width:60em;
+      min-height:25em;
+    }
+    
+    .psa_page-secmin35x30em {
+      min-width:35em;
+      min-height:30em;
+    }
+    
+    .psa_page-secmin40x30em {
+      min-width:40em;
+      min-height:30em;
+    }
+    
+    .psa_page-secmin45x30em {
+      min-width:45em;
+      min-height:30em;
+    }
+    
+    .psa_page-secmin50x30em {
+      min-width:50em;
+      min-height:30em;
+    }
+    
+    .psa_page-secmin55x30em {
+      min-width:55em;
+      min-height:30em;
+    }
+    
+    .psa_page-secmin60x30em {
+      min-width:60em;
+      min-height:30em;
+    }
+    
+    .psa_page-secmin40x35em {
+      min-width:40em;
+      min-height:35em;
+    }
+    
+    .psa_page-secmin45x35em {
+      min-width:45em;
+      min-height:35em;
+    }
+    
+    .psa_page-secmin50x35em {
+      min-width:50em;
+      min-height:35em;
+    }
+    
+    .psa_page-secmin55x35em {
+      min-width:55em;
+      min-height:35em;
+    }
+    
+    .psa_page-secmin60x35em {
+      min-width:60em;
+      min-height:35em;
+    }
+    
+    .psa_page-secmin45x40em {
+      min-width:45em;
+      min-height:40em;
+    }
+    
+    .psa_page-secmin50x40em {
+      min-width:50em;
+      min-height:40em;
+    }
+    
+    .psa_page-secmin55x40em {
+      min-width:55em;
+      min-height:40em;
+    }
+    
+    .psa_page-secmin60x40em {
+      min-width:60em;
+      min-height:40em;
+    }
+    
+    .psa_page-secmin50x45em {
+      min-width:50em;
+      min-height:45em;
+    }
+    
+    .psa_page-secmin55x45em {
+      min-width:55em;
+      min-height:45em;
+    }
+    
+    .psa_page-secmin60x45em {
+      min-width:60em;
+      min-height:45em;
+    }
+    
+    .psa_page-secmin55x50em {
+      min-width:55em;
+      min-height:50em;
+    }
+    
+    .psa_page-secmin60x50em {
+      min-width:60em;
+      min-height:50em;
+    }
+    
+    .psa_page-secmin60x55em {
+      min-width:60em;
+      min-height:55em;
+    }
+    
+    .psa_page-secmin65x55em {
+      min-width:65em;
+      min-height:55em;
+    }
+    
+    
+    
+    
+    
+    .psa_page-secmin10x15em {
+      min-width:10em;
+      min-height:15em;
+    }
+    
+    .psa_page-secmin10x20em {
+      min-width:10em;
+      min-height:20em;
+    }
+    
+    .psa_page-secmin10x25em {
+      min-width:10em;
+      min-height:25em;
+    }
+    
+    .psa_page-secmin10x30em {
+      min-width:10em;
+      min-height:30em;
+    }
+    
+    .psa_page-secmin10x35em {
+      min-width:10em;
+      min-height:35em;
+    }
+    
+    .psa_page-secmin10x40em {
+      min-width:10em;
+      min-height:40em;
+    }
+    
+    .psa_page-secmin10x45em {
+      min-width:10em;
+      min-height:45em;
+    }
+    
+    .psa_page-secmin10x50em {
+      min-width:10em;
+      min-height:50em;
+    }
+    
+    .psa_page-secmin10x55em {
+      min-width:10em;
+      min-height:55em;
+    }
+    
+    .psa_page-secmin10x60em {
+      min-width:10em;
+      min-height:60em;
+    }
+    
+    .psa_page-secmin15x20em {
+      min-width:15em;
+      min-height:20em;
+    }
+    
+    .psa_page-secmin15x25em {
+      min-width:15em;
+      min-height:25em;
+    }
+    
+    .psa_page-secmin15x30em {
+      min-width:15em;
+      min-height:30em;
+    }
+    
+    .psa_page-secmin15x35em {
+      min-width:15em;
+      min-height:35em;
+    }
+    
+    .psa_page-secmin15x40em {
+      min-width:15em;
+      min-height:40em;
+    }
+    
+    .psa_page-secmin15x45em {
+      min-width:15em;
+      min-height:45em;
+    }
+    
+    .psa_page-secmin15x50em {
+      min-width:15em;
+      min-height:50em;
+    }
+    
+    .psa_page-secmin15x55em {
+      min-width:15em;
+      min-height:55em;
+    }
+    
+    .psa_page-secmin15x60em {
+      min-width:15em;
+      min-height:60em;
+    }
+    
+    .psa_page-secmin20x25em {
+      min-width:20em;
+      min-height:25em;
+    }
+    
+    .psa_page-secmin20x30em {
+      min-width:20em;
+      min-height:30em;
+    }
+    
+    .psa_page-secmin20x35em {
+      min-width:20em;
+      min-height:35em;
+    }
+    
+    .psa_page-secmin20x40em {
+      min-width:20em;
+      min-height:40em;
+    }
+    
+    .psa_page-secmin20x45em {
+      min-width:20em;
+      min-height:45em;
+    }
+    
+    .psa_page-secmin20x50em {
+      min-width:20em;
+      min-height:50em;
+    }
+    
+    .psa_page-secmin20x55em {
+      min-width:20em;
+      min-height:55em;
+    }
+    
+    .psa_page-secmin20x60em {
+      min-width:20em;
+      min-height:60em;
+    }
+    
+    .psa_page-secmin25x30em {
+      min-width:25em;
+      min-height:30em;
+    }
+    
+    .psa_page-secmin25x35em {
+      min-width:25em;
+      min-height:35em;
+    }
+    
+    .psa_page-secmin25x40em {
+      min-width:25em;
+      min-height:40em;
+    }
+    
+    .psa_page-secmin25x45em {
+      min-width:25em;
+      min-height:45em;
+    }
+    
+    .psa_page-secmin25x50em {
+      min-width:25em;
+      min-height:50em;
+    }
+    
+    .psa_page-secmin25x55em {
+      min-width:25em;
+      min-height:55em;
+    }
+    
+    .psa_page-secmin25x60em {
+      min-width:25em;
+      min-height:60em;
+    }
+    
+    .psa_page-secmin30x35em {
+      min-width:30em;
+      min-height:35em;
+    }
+    
+    .psa_page-secmin30x40em {
+      min-width:30em;
+      min-height:40em;
+    }
+    
+    .psa_page-secmin30x45em {
+      min-width:30em;
+      min-height:45em;
+    }
+    
+    .psa_page-secmin30x50em {
+      min-width:30em;
+      min-height:50em;
+    }
+    
+    .psa_page-secmin30x55em {
+      min-width:30em;
+      min-height:55em;
+    }
+    
+    .psa_page-secmin30x60em {
+      min-width:30em;
+      min-height:60em;
+    }
+    
+    .psa_page-secmin35x40em {
+      min-width:35em;
+      min-height:40em;
+    }
+    
+    .psa_page-secmin35x45em {
+      min-width:35em;
+      min-height:45em;
+    }
+    
+    .psa_page-secmin35x50em {
+      min-width:35em;
+      min-height:50em;
+    }
+    
+    .psa_page-secmin35x55em {
+      min-width:35em;
+      min-height:55em;
+    }
+    
+    .psa_page-secmin35x60em {
+      min-width:35em;
+      min-height:60em;
+    }
+    
+    .psa_page-secmin40x45em {
+      min-width:40em;
+      min-height:45em;
+    }
+    
+    .psa_page-secmin40x50em {
+      min-width:40em;
+      min-height:50em;
+    }
+    
+    .psa_page-secmin40x55em {
+      min-width:40em;
+      min-height:55em;
+    }
+    
+    .psa_page-secmin40x60em {
+      min-width:40em;
+      min-height:60em;
+    }
+    
+    .psa_page-secmin45x50em {
+      min-width:45em;
+      min-height:50em;
+    }
+    
+    .psa_page-secmin45x55em {
+      min-width:45em;
+      min-height:55em;
+    }
+    
+    .psa_page-secmin45x60em {
+      min-width:45em;
+      min-height:60em;
+    }
+    
+    .psa_page-secmin50x55em {
+      min-width:50em;
+      min-height:55em;
+    }
+    
+    .psa_page-secmin50x60em {
+      min-width:50em;
+      min-height:60em;
+    }
+    
+    .psa_page-secmin55x60em {
+      min-width:55em;
+      min-height:60em;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .psa_tm-html > .ps-htmlarea > div {
+    max-height:none !important;
+    overflow:auto !important;
+    }
+    
+    
+    
+    .psa_tasks_grid > .ps-link-wrapper > .ps-link {
+        display: block;
+        color :#000;
+        text-decoration: none !important;
+        font-weight: bold;	
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;	
+        width: 100%; 
+    }
+    .psa_tasks_grid,
+    .psa_list-linkmenu > .ps_box-scrollarea-row {  
+        display: block;
+        overflow: hidden;
+    }
+    
+    
+    
+    .psa_details_grid .ps_grid-row .ps_grid-cell:nth-child(1) 
+    {
+      width:44%;
+      text-align:right;
+      color:#6c6c6c;
+      font-weight: bold;
+      height:1.5em;
+     padding-top:unset;
+     padding-bottom:0.6em;
+    
+    }
+    
+    .psa_details_grid .ps_grid-row .ps_grid-cell:nth-child(2)
+    {
+      width:56%;
+      height:1.5em;
+      padding-top:unset;
+      padding-bottom:0.6em;
+     
+    }
+    
+    
+    .psa_bottom-border .ps_grid-row:last-child .ps_grid-cell:nth-child(1) 
+    {
+      width:44%;
+      text-align:right;
+      color:#6c6c6c;
+      font-weight: bold;
+      height:1.5em;
+     padding-top:unset;
+     padding-bottom:unset;
+    
+    }
+    
+    .psa_bottom-border .ps_grid-row:last-child .ps_grid-cell:nth-child(2)
+    {
+      width:56%;
+      height:1.5em;
+      padding-top:unset;
+      padding-bottom:unset;
+     
+    }
+    
+    .psa_bordernone .ps_grid-flex
+    
+    {
+    border:none;
+    padding:none;
+    }
+    .psa_sff_label .ps_box-value {
+        color:#6c6c6c;
+      font-weight: bold;
+    }
+    
+    .psa_sff_value .ps_box-edit {
+      margin-bottom:0em;
+    }
+    
+    .psa_sff_value .ps_box-edit.psc_disabled {
+      min-height:1em;
+    }
+    
+    @media only screen and (orientation:landscape) {
+        :root.psc_form-small .psa_vardata_scroll .ps_box-scrollarea{
+        display:none;	
+     }
+    }
+    
+    :root:not(.psc_form-small) .psa_vardata_scroll .ps_box-scrollarea{
+        display:none;	
+     }
+    
+    
+    @media only screen and (orientation:portrait) {
+        :root.psc_form-small .psa_vardata_grid .ps_box-grid-flex{
+        display:none;	
+     }
+    }
+    
+    .psa_hide_header .ps_box-grid-head {
+     visibility:hidden;	
+    }

@@ -1,0 +1,226 @@
+:root:not(.psc_form-small) .addtilecontainer {
+
+    min-width: 400px;
+
+    border:1px solid #848e94;
+}
+
+:root.psc_form-small .addtilecontainer {
+    overflow:hidden;
+    position: absolute;
+    left:0em; 
+    right:0em; 
+    top:0em;
+    bottom:0em;
+}
+
+.addtilecontainer .addtilesrchcontainer {
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.addtilecontainer .addtileheader {
+     background-color: #F5F5F5;
+    border-radius: 5px 5px 0 0;
+ 
+    color: #000; 
+    line-height: 2em;
+    margin-bottom: 0.5em;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    height: auto; 
+    border-bottom: 1px solid #ced4da; 
+    border-color:#868e96; 
+    font-size: 1em; 
+    font-weight: bold;
+}
+
+
+.addtilecontainer .addtileheader .addtiletitle {
+  font-size:1.1em; 
+  margin-bottom:0.35em;
+}
+
+.addtilecontainer .srchcontainer {
+    margin: 25px 0px 25px 0px;
+}
+
+.addtilecontainer .srchtile  .ps-edit{
+    padding: 0.55em 0;
+    padding-left: 0.25em; 
+}
+
+.addtilecontainer .ps_box-control select, .addtilecontainer .ps_box-control input {
+    width:100%;
+}
+
+.addtilecontainer .hdrbuttonarea {
+    height: 70px;
+}
+
+.addtilecontainer .categorylist {
+ 
+}
+
+.addtilecontainer .gpltsrchbox {
+    float: left;
+    width: 85%;
+padding-right: 5px;
+}
+
+.addtilecontainer .gpltsrchbox .ps_box-label {
+    width: 0px;
+    padding: 0px;
+}
+
+.addtilecontainer .gpltsrchbox .ps_box-control {
+    width: 100%;
+}
+
+.addtilecontainer .gpltsrchbtnbox {
+    float:left;
+    width:15%;
+}
+
+.addtilecontainer .gpltsrchbtn {
+    display: inline-block;
+    width: 100%;
+}
+
+
+.addtilecontainer .ps_header-group {
+    color: #333;
+    background: #fff;
+    margin-bottom: 0;
+}
+
+.addtilecontainer .gpltsrchbtn .ps_header-group {
+    border-bottom: none;
+}
+
+.addtilecontainer .ptnui_menu_hdr {
+    background: #f5f5f5; 
+    border: 0.091em solid #E7E7E7;
+    border-color:#868e96; 
+    min-height: 3.1351em;
+    position: relative;
+}
+.addtilecontainer .ptnui_menu_hdr .ptnui_menu_back {
+    display: inline-block;
+    padding-left: 0.5em;
+}
+.addtilecontainer .ptnui_menu_hdr .ptnui_menu_title {
+    display: inline-block;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 2.8em;
+    margin-bottom: 0;
+    max-width: 18.7em;
+    padding-left: 0.5em;
+}
+.addtilecontainer .ptnui_menu_hdr .ptnui_menu_title span {
+    white-space: normal;
+    line-height: 18px;
+}
+.addtilecontainer .addtiletitle {
+    padding-top: 7px;
+}
+.addtilecontainer .ptnui_menu_hdr .ptnui_menu_title .ps_box-label,
+.addtilecontainer .addtiletitle .ps_box-label {
+    display: none;
+}
+
+.addtilecontainer .lplistgrid {
+
+    border-color:#868e96; 
+}
+
+.addtilecontainer .lplistgrid ul {
+    list-style: none;
+    padding-left: 0em;
+}
+
+.addtilecontainer .lplistgrid div.lplistitem {
+border-bottom: none; 
+
+
+width: 100%;
+
+border-color: #868e96; 
+}
+
+.addtilecontainer .lplistgrid div.lplistitem.fldr {
+
+
+}
+
+.addtilecontainer .lplistgrid .lplistitem span {
+    width: 100%;
+}
+
+.addtilecontainer .lplistgrid a, .addtilecontainer .lplistgrid .ps_box-menuitem > .ps_box-link > .ps-link-wrapper >  a {
+    padding: 1.3em 0.5em;
+    display: block;
+    padding-left: 1.4em 
+    white-space: normal;
+    font-family: inherit; 
+    font-weight: normal; 
+}
+
+
+.addtilecontainer .categorylist a:after{
+    content: url('/cs/spcssprd/cache/PTNUI_RARRW_ICN_1.png'); 
+
+    display:inline-block;
+    position:absolute;
+    top:50%;
+    margin-top:-6px;
+    right:3%;
+}
+
+
+.addtilecontainer .lplistgrid a:link, .addtilecontainer .nui-myfav-gb a:visited, 
+.addtilecontainer .nui-myfav-gb a:hover, .addtilecontainer .nui-myfav-gb a:active, .addtilecontainer .nui-myfav-gb a:focus {
+  color: #1c579c;  
+  text-decoration: none;
+}
+
+.addtilecontainer .lplistgrid div.lplistitem:hover {
+    background-color: #F4F7FC; 
+}
+
+.addtilecontainer .lplistgrid div.lplistitem:active {
+    background-color: #f0f0f0; 
+}
+
+.addtilecontainer .backbtnContainer {
+    height: 2em;
+    margin-bottom: 0.75em;
+}
+
+.addtilecontainer .addtileback {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+}
+
+.addtilecontainer .noresults span{
+    display: inline;
+}
+
+.addtilecontainer .noresults .ps_box-label{
+    width: auto;
+    padding-top: 25px;
+}
+
+.addtilecontainer .nbhdr_cancel {
+position: absolute;
+left: 10px;
+top: 7px;
+z-index: 1;
+}
+
+.addtilecontainer .nbhdr_cancel .ps-button {
+    padding:0.35em;
+}

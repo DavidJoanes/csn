@@ -1,0 +1,25 @@
+#BackgroundDisplayHelper {background:url('/images/GoCSNLoginBackground.jpg') no-repeat fixed left top / cover rgba(0, 0, 0, 0);}
+
+.loginFormLogo{background-color:#00267F;width:Auto;height:42px;background-image:url('/images/GoCSNLogoNEW.png');background-repeat:no-repeat;background-position:center center;}
+
+.loginHeader {height:42px;border-bottom:solid 1px #efefef;}
+
+#LoginBox {width:200px;background-color:#FFFFFF;color:#666666;padding:0px 15px 10px 15px;border-radius:4px 4px 4px 4px;border:solid 2px #00267F;margin:0 auto;box-shadow:2px 2px 2px #666666;display:block;}
+
+.loginForm-text-input {background-color:#ffffff;border:2px solid #00267F;color:#666666;font-family:tahoma, sans-serif;font-size:13px;padding:3px;width:128px;margin-top:3px;-webkit-transition-property:border;-moz-transition-property:border;transition-property:border;-webkit-transition-duration:0.50s;-moz-transition-duration:0.50s;transition-duration:0.50s;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;background:-webkit-linear-gradient(90deg, #FFFFFF 70%, #ECECEC) !important;background:-moz-linear-gradient(90deg, #FFFFFF 70%, #ECECEC) !important;}
+
+.loginForm-text-input-hover {border:2px solid #DEDEDE;color:#666666;font-family:tahoma, Arial, Helvetica, sans-serif;font-size:13px;padding:3px;width:128px;background:white !important;}
+
+.blankLoginBox {width:330px;margin:0 0 0 0;background-color:#FFFFFF;border:2px solid #00267F;padding:10px 20px 0 20px;display:block;box-shadow:2px 2px 2px #666666;}
+
+.loginCenteredContent {max-width:400px;margin:0 auto;background-color:#FFFFFF;border:solid 2px #00267F;box-shadow:2px 2px 2px #666666;}
+
+.loginFooter{height:30px;background-color:#FFFFFF;text-align:right;padding-right:15px;color:#000000;}
+
+.loginLinksBlock {float:right;width:;display:table;}
+
+.loginPage #LoginBox {width:200px;position:relative;right:0px;}
+
+.loginFormBlock {width:50%;float:left;}
+
+.loginForm-label-text {font-size:13px;font-family:tahoma,sans-serif;color:#173165;font-weight:bold;margin-bottom:4px;text-align:left;}
