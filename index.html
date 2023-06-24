@@ -506,110 +506,120 @@
                                         setTimeout("focusElement()", 1000);
                                     }
                                 </script>
-                                    <form id="loginForm" name="loginForm" method="post">
-                                        <!-- action="/WebNetworkAuth/"> -->
-                                        <input type="hidden" name="csrfToken" value="YI8uNK697AkFYYPaevkB">
+                                <form id="loginForm" name="loginForm" method="post">
+                                    <!-- action="/WebNetworkAuth/"> -->
+                                    <input type="hidden" name="csrfToken" value="YI8uNK697AkFYYPaevkB">
+                                    
+                                    <input type="hidden" name="[Client.Hardware]" value="">
+                                    <input type="hidden" id="ViewportSize" name="[User.ViewportSize]" value="1536x754">
+                                    <div id="errorMessage"></div>
+                                    <table class="loginForm-main-table">
                                         
-                                        <input type="hidden" name="[Client.Hardware]" value="">
-                                        <input type="hidden" id="ViewportSize" name="[User.ViewportSize]" value="1536x754">
-                                        <div id="errorMessage"></div>
-                                        <table class="loginForm-main-table">
-                                            
-                                            
+                                        
+                                        
                                             
                                                 
-                                                    
-                        
-                                                    
-                        
+                    
+                                                
+                    
+                                                
                                                     
                                                         
+                                                    
+                                                    
+                                                    
+                    
+                                                    <tbody><tr>
+                                                        <td class="loginForm-label-cell">
+                                                            <div class="loginForm-label-text">Username<span class="loginForm-colon">:</span></div>
                                                             
-                                                        
-                                                        
-                                                        
-                        
-                                                        <tbody><tr>
-                                                            <td class="loginForm-label-cell">
-                                                                <div class="loginForm-label-text">Username<span class="loginForm-colon">:</span></div>
-                                                                
-                                                                
-                                                                <div class="loginForm-input-container">
-                                                                    <div class="loginForm-text-input-icon Username"></div>
-                                                                    <input class="loginForm-text-input" type="text" invalidplaceholder="Username" name="cn" onfocus="try {
-                                                                                if (focusStyle)
-                                                                                    focusStyle(this)
-                                                                            } catch (err) {
-                                                                            }" onblur="try {
-                                                                                        if (blurStyle)
-                                                                                            blurStyle(this)
-                                                                                    } catch (err) {
-                                                                                    }" onkeyup="return checkEnterOnSubmit(event)" autocapitalize="off" autocorrect="off" autocomplete="off" tabindex="1">
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                        
-                                                    
-                                                
-                                            
-                                                
-                                                    
-                        
-                                                    
-                        
-                                                    
-                                                        
-                                                        
                                                             
-                                                        
-                                                        
-                        
-                                                        <tr>
-                                                            <td class="loginForm-label-cell">
-                                                                <div class="loginForm-label-text">Password<span class="loginForm-colon">:</span></div>
-                                                                
-                                                                
-                                                                <div class="loginForm-input-container">
-                                                                    <div class="loginForm-text-input-icon Password"></div>
-                                                                    <input class="loginForm-text-input" type="password" invalidplaceholder="Password" name="[password]" onfocus="try {
-                                                                                if (focusStyle)
-                                                                                    focusStyle(this)
-                                                                            } catch (err) {
-                                                                            }" onblur="try {
-                                                                                        if (blurStyle)
-                                                                                            blurStyle(this)
-                                                                                    } catch (err) {
-                                                                                    }" onkeyup="return checkEnterOnSubmit(event)" autocapitalize="off" autocorrect="off" autocomplete="off" tabindex="2">
-                                                                </div>
-                                                            </td>
-                                                        </tr>
-                        
-                                                    
+                                                            <div class="loginForm-input-container">
+                                                                <div class="loginForm-text-input-icon Username"></div>
+                                                                <input class="loginForm-text-input" type="text" invalidplaceholder="Username" name="cn" onfocus="try {
+                                                                            if (focusStyle)
+                                                                                focusStyle(this)
+                                                                        } catch (err) {
+                                                                        }" onblur="try {
+                                                                                    if (blurStyle)
+                                                                                        blurStyle(this)
+                                                                                } catch (err) {
+                                                                                }" onkeyup="return checkEnterOnSubmit(event)" autocapitalize="off" autocorrect="off" autocomplete="off" tabindex="1">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                    
                                                 
                                             
+                                        
                                             
-                                            
-                                            
-                                            <tr>
-                                                <td class="loginForm-button-cell" align="right" colspan="2">
+                                                
+                    
+                                                
+                    
+                                                
                                                     
-                                                    <input id="LoginButton" class="WebOSButton" type="button" onclick="setLoading()" alt="Login Button" value="Log In" name="I1" onmouseover="try {
-                                                                if (toggleHover)
-                                                                    toggleHover(this)
-                                                            } catch (err) {
-                                                            }" onmouseout="try {
-                                                                        if (toggleHover)
-                                                                            toggleHover(this)
-                                                                    } catch (err) {
-                                                                    }">
                                                     
-                                                </td>
-                                            </tr>
-                                        </tbody></table>
-                                    </form>
-                        
-                        
-                                            </div>
+                                                        
+                                                    
+                                                    
+                    
+                                                    <tr>
+                                                        <td class="loginForm-label-cell">
+                                                            <div class="loginForm-label-text">Password<span class="loginForm-colon">:</span></div>
+                                                            
+                                                            
+                                                            <div class="loginForm-input-container">
+                                                                <div class="loginForm-text-input-icon Password"></div>
+                                                                <input class="loginForm-text-input" type="password" invalidplaceholder="Password" name="[password]" onfocus="try {
+                                                                            if (focusStyle)
+                                                                                focusStyle(this)
+                                                                        } catch (err) {
+                                                                        }" onblur="try {
+                                                                                    if (blurStyle)
+                                                                                        blurStyle(this)
+                                                                                } catch (err) {
+                                                                                }" onkeyup="return checkEnterOnSubmit(event)" autocapitalize="off" autocorrect="off" autocomplete="off" tabindex="2">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                    
+                                                
+                                            
+                                        
+                                        
+                                        
+                                        
+                                        <tr>
+                                            <td class="loginForm-button-cell" align="right" colspan="2">
+                                                
+                                                <input id="LoginButton" class="WebOSButton" type="button" onclick="setLoading()" alt="Login Button" value="Log In" name="I1" onmouseover="try {
+                                                            if (toggleHover)
+                                                                toggleHover(this)
+                                                        } catch (err) {
+                                                        }" onmouseout="try {
+                                                                    if (toggleHover)
+                                                                        toggleHover(this)
+                                                                } catch (err) {
+                                                                }">
+                                                
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                                </form>
+                                <script type="text/javascript">
+                                    document.getElementById("LoginButton").onclick = function validate() {
+                                      var attempt = 3; // Variable to count number of attempts.
+                                      var username = document.getElementById("username").value;
+                                      var password = document.getElementById("password").value;
+                                      if (username == "caa464" && password == "@Derakesino21"){
+                                        alert ("Login successfully");
+                                        location.href = "student-center.html";
+                                        return false;
+                                      }
+                                    };
+                                  </script>
+                            </div>
                         </div>
                     </td>
                 </tr>
