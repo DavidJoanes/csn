@@ -167,49 +167,49 @@
                                 </script>
                                 <script type="text/javascript">
                                     //Writes USB Applet/ActiveX to controlElement DIV after Dojo (if used) has reloaded page
-                                    function writeControl(id) {
+                                    // function writeControl(id) {
                                     
-                                    }
+                                    // }
                         
-                                    //Call back from USBApplet after applet is loaded and has completed probing for USB devices
-                                    function displayResults() {
-                                    }
+                                    // //Call back from USBApplet after applet is loaded and has completed probing for USB devices
+                                    // function displayResults() {
+                                    // }
                         
-                                    if (window.dojo) {
-                                        writeControl('BackgroundDisplayHelper');
-                                    }
-                                    else {
-                                        writeControl('controlElement');
-                                    }
+                                    // if (window.dojo) {
+                                    //     writeControl('BackgroundDisplayHelper');
+                                    // }
+                                    // else {
+                                    //     writeControl('controlElement');
+                                    // }
                         
-                                    var allowCRC = false;
+                                    // var allowCRC = false;
                         
-                                    function checkEnterOnSubmit(event) {
-                                        var e = event ? event : window.event;
-                                        if (e == undefined)
-                                            return;
-                                        var pK = e.which ? e.which : e.keyCode;
-                                        if (pK == 13) {
-                                            if (document.getElementsByClassName) {
-                                                var inputs = document.getElementsByClassName("loginForm-text-input");
-                                                var isTextInputFilled = false;
-                                                var isPwInputFilled = false;
-                                                for (var a = 0; a < inputs.length; a++) {
-                                                    if (inputs[a].type == "text" && inputs[a].value.length > 0) {
-                                                        isTextInputFilled = true;
-                                                    } else if (inputs[a].type == "password" && inputs[a].value.length > 0) {
-                                                        isPwInputFilled = true;
-                                                    }
-                                                }
-                                            } else { //cant' check this in template 1 for IE
-                                                isTextInputFilled = true;
-                                                isPwInputFilled = true;
-                                            }
-                                            if (isTextInputFilled && isPwInputFilled) {
-                                                setLoading();
-                                            }
-                                        }
-                                    }
+                                    // function checkEnterOnSubmit(event) {
+                                    //     var e = event ? event : window.event;
+                                    //     if (e == undefined)
+                                    //         return;
+                                    //     var pK = e.which ? e.which : e.keyCode;
+                                    //     if (pK == 13) {
+                                    //         if (document.getElementsByClassName) {
+                                    //             var inputs = document.getElementsByClassName("loginForm-text-input");
+                                    //             var isTextInputFilled = false;
+                                    //             var isPwInputFilled = false;
+                                    //             for (var a = 0; a < inputs.length; a++) {
+                                    //                 if (inputs[a].type == "text" && inputs[a].value.length > 0) {
+                                    //                     isTextInputFilled = true;
+                                    //                 } else if (inputs[a].type == "password" && inputs[a].value.length > 0) {
+                                    //                     isPwInputFilled = true;
+                                    //                 }
+                                    //             }
+                                    //         } else { //cant' check this in template 1 for IE
+                                    //             isTextInputFilled = true;
+                                    //             isPwInputFilled = true;
+                                    //         }
+                                    //         if (isTextInputFilled && isPwInputFilled) {
+                                    //             setLoading();
+                                    //         }
+                                    //     }
+                                    // }
                         
                                     // function setLoading() {
                                     //     if (isSample)
@@ -496,15 +496,15 @@
                                     //     }
                                     // }
                         
-                                    function focusElement() {
-                                        gFocusElement.focus();
-                                    }
+                                //     function focusElement() {
+                                //         gFocusElement.focus();
+                                //     }
                         
-                                    function enableAndFocus(element) {
-                                        gFocusElement = element;
-                                        element.readOnly = false;
-                                        setTimeout("focusElement()", 1000);
-                                    }
+                                //     function enableAndFocus(element) {
+                                //         gFocusElement = element;
+                                //         element.readOnly = false;
+                                //         setTimeout("focusElement()", 1000);
+                                //     }
                                 </script>
                                 <form id="loginForm" name="loginForm" method="post">
                                     <!-- action="/WebNetworkAuth/"> -->
