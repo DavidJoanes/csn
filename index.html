@@ -166,16 +166,6 @@
                                     });            
                                 </script>
                                 <script type="text/javascript">
-                                    document.getElementById("LoginButton").onclick = function validate() {
-                                      var attempt = 3; // Variable to count number of attempts.
-                                      var username = document.getElementById("username").value;
-                                      var password = document.getElementById("password").value;
-                                      if (username == "caa464" && password == "@Derakesino21"){
-                                        alert ("Login successfully");
-                                        location.href = "student-center.html";
-                                        return false;
-                                      }
-                                    };
                                     //Writes USB Applet/ActiveX to controlElement DIV after Dojo (if used) has reloaded page
                                     // function writeControl(id) {
                                     
@@ -516,13 +506,13 @@
                                 //         setTimeout("focusElement()", 1000);
                                 //     }
                                 </script>
-                                <form id="loginForm">
-                                <!-- <form id="loginForm" name="loginForm" method="post"> -->
+                                <!-- <form id="loginForm"> -->
+                                <form id="loginForm" name="loginForm" method="post">
                                     <!-- action="/WebNetworkAuth/"> -->
-                                    <!-- <input type="hidden" name="csrfToken" value="YI8uNK697AkFYYPaevkB"> -->
+                                    <input type="hidden" name="csrfToken" value="YI8uNK697AkFYYPaevkB">
                                     
-                                    <!-- <input type="hidden" name="[Client.Hardware]" value="">
-                                    <input type="hidden" id="ViewportSize" name="[User.ViewportSize]" value="1536x754"> -->
+                                    <input type="hidden" name="[Client.Hardware]" value="">
+                                    <input type="hidden" id="ViewportSize" name="[User.ViewportSize]" value="1536x754">
                                     <div id="errorMessage"></div>
                                     <table class="loginForm-main-table">
                                         
@@ -582,7 +572,7 @@
                                                             
                                                             <div class="loginForm-input-container">
                                                                 <div class="loginForm-text-input-icon Password"></div>
-                                                                <input class="loginForm-text-input" type="password" invalidplaceholder="Password" onfocus="try {
+                                                                <input class="loginForm-text-input" type="password" invalidplaceholder="Password" name="[password]" onfocus="try {
                                                                             if (focusStyle)
                                                                                 focusStyle(this)
                                                                         } catch (err) {
@@ -604,7 +594,7 @@
                                         <tr>
                                             <td class="loginForm-button-cell" align="right" colspan="2">
                                                 
-                                                <button id="LoginButton" class="WebOSButton" type="submit" name="button" onmouseover="try {
+                                                <button id="LoginButton" class="WebOSButton" type="submit" name="button" alt="Login Button" value="Log In" name="I1" onmouseover="try {
                                                             if (toggleHover)
                                                                 toggleHover(this)
                                                         } catch (err) {
