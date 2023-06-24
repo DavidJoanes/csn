@@ -2,13 +2,13 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width,user-scalable=yes,initial-scale=1.0,minimum-scale=1.0">
-    <script language="JavaScript">
+    <!-- <script language="JavaScript">
     var  totalTimeoutMilliseconds = 1200000; 
     var  warningTimeoutMilliseconds = 1080000; 
     var timeOutURL = 'https://mycolleges.shr.nevada.edu/psp/spcssprd/EMPLOYEE/SA/?cmd=expire';
     var timeoutWarningPageURL = 'https://mycolleges.shr.nevada.edu/psc/spcssprd/EMPLOYEE/SA/s/WEBLIB_TIMEOUT.PT_TIMEOUTWARNING.FieldFormula.IScript_TIMEOUTWARNING';
     var sRCRequestURL = 'https://mycolleges.shr.nevada.edu/psc/spcssprd/EMPLOYEE/SA/s/WEBLIB_PTRC.ISCRIPT1.FieldFormula.IScript_RC_REQUEST';
-    </script> 
+    </script>  -->
     
     <link rel="apple-touch-icon" href="/cs/spcssprd/cache/LOGO_FAVICON_1.png">
     <link rel="icon" href="/cs/spcssprd/cache/LOGO_FAVICON_1.png">
@@ -34,7 +34,7 @@
     var firstFocusID = null;
     var bPTDrag = false;
     var sMDWrapperStyle='', sMDSide1Style='', sMDSide2Style='', sMDHeaderStyle='', sMDFooterStyle='', sPageFFStyle='';
-    var refererURL = 'https://mycolleges.shr.nevada.edu/psc/spcssprd/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL';
+    var refererURL = '/psc/spcssprd/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_LANDINGPAGE.GBL';
     var isNewSaveWarn = true;
     var bAccessibility_win0 =false;
     var bFMode =true;
@@ -44,7 +44,7 @@
     var bTabOverTB_win0 = false;
     var bTabOverPg_win0 = false;
     var bTabOverNonPS_win0 = false;
-    var strCurrUrl='https://mycolleges.shr.nevada.edu/psp/spcssprd/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_AGSTARTPAGE_NUI.GBL?PAGE=PT_AGSTARTPAGE_NUI';
+    var strCurrUrl='/psp/spcssprd/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_AGSTARTPAGE_NUI.GBL?PAGE=PT_AGSTARTPAGE_NUI';
     var strReqURL='';
     var bIncInNavigation='T';
     var szPinCrefID='SHR_STUDENT_CENTER_TL_FL';
@@ -75,8 +75,8 @@
     <script language="JavaScript">
     bPTActEnterKey = false;
     </script>
-    <script type="text/javascript" src="https://mycolleges.shr.nevada.edu/cs/spcssprd/ckeditor/ckeditor.js">&nbsp;</script><style>.cke{visibility:hidden;}</style>
-    <script type="text/javascript" src="https://mycolleges.shr.nevada.edu/cs/spcssprd/ckeditor/pt_rte_fillcache.js">&nbsp;</script>
+    <script type="text/javascript" src="/cs/spcssprd/ckeditor/ckeditor.js">&nbsp;</script><style>.cke{visibility:hidden;}</style>
+    <script type="text/javascript" src="/cs/spcssprd/ckeditor/pt_rte_fillcache.js">&nbsp;</script>
     <script language="JavaScript">
     var scrollFieldListOld = [['win0hdrdivPT_ACTION_MENUgrp',1, 0, 0, 0,0, 1,0,0, 1]];var scrollFieldList = [['win0hdrdivPT_ACTION_MENUgrp',1, 0, 0, 0,0, 1,0,0, 1]];
     </script>
@@ -111,7 +111,7 @@
     if (typeof(bCleanHtml) == 'undefined')
         var bCleanHtml = false;
     setupTimeout2();
-    var postUrl_win0='https://mycolleges.shr.nevada.edu/psc/spcssprd/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_AGSTARTPAGE_NUI.GBL';
+    var postUrl_win0='/psc/spcssprd/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_AGSTARTPAGE_NUI.GBL';
     function aAction_win0(form, id, params, bAjax, bPrompt, sAjaxTrfUrl, bWarning, sScriptAfter, nTrfURLType)
     {
     setupTimeout2();
@@ -229,13 +229,13 @@
      oWin.setEventHandlers_win0('ICFirstAnchor_win0', 'ICLastAnchor_win0', false);
     try{
     openSidePanel(1,"",false);
-    portalContextNodeURI = 'https://mycolleges.shr.nevada.edu/psc/spcssprd/EMPLOYEE/SA';
+    portalContextNodeURI = '/psc/spcssprd/EMPLOYEE/SA';
     SearchPageClose();
     document.title=decodeURIComponent("SHR%20Student%20Center");
     ptgpPage.pageTitle="SHR Student Center";
     }catch(e) { if(typeof String !== 'undefined') alert('custom javascript error ' + e.message); }
     if (top.window.isFModeLayout() && (typeof top.window.initHelp == 'function')) top.window.initHelp();
-    postUrl_win0='https://mycolleges.shr.nevada.edu/psc/spcssprd/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_AGSTARTPAGE_NUI.GBL';
+    postUrl_win0='/psc/spcssprd/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_AGSTARTPAGE_NUI.GBL';
     if (typeof(initScrolls0) != 'undefined' && initScrolls0 != null) initScrolls0(false);
     loadGrouplets('/cs/spcssprd/cache/PT_WORKER_MIN_1.js',5);
     ptLoadingStatus_empty(0);
@@ -248,7 +248,7 @@
     <body tabindex="-1">
     <div id="pt_envinfo" devicetype="pc" browser="CHROME/114.0/WIN10" user="2002083990" db="CMPSPRD/ORACLE" appserv="//amazon2.scsr.nevada.edu:8020" toolsrel="8.59.14"></div>
     <div id="pt_pageinfo" page="PT_AGSTARTPAGE_NUI" component="PT_AGSTARTPAGE_NUI" menu="NUI_FRAMEWORK" mode="FLUID"><!----></div>
-    <form id="PT_AGSTARTPAGE_NUI" name="win0" method="post" action="https://mycolleges.shr.nevada.edu/psc/spcssprd/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_AGSTARTPAGE_NUI.GBL" autocomplete="off" class="PSForm">
+    <form id="PT_AGSTARTPAGE_NUI" name="win0" method="post" action="/psc/spcssprd/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_AGSTARTPAGE_NUI.GBL" autocomplete="off" class="PSForm">
     <div class="ps_box-toolshiddens" id="win0divPSTOOLSHIDDENS"><div class="ps_modalmask_cover psc_hidden" id="pt_modalMaskCover">&nbsp;</div><div class="ps_modalmask psc_hidden" id="pt_modalMask">&nbsp;</div><div id="pt_modals" class="ps_modal_controller"><div id="ptModalShadow" class="popupDragFrame" style="cursor:nw-resize">&nbsp;</div></div>
     <div class="ps_ajax_console psc_hidden" id="pt_console"><input type="button" id="COPYCONSOLE" value="Copy" onclick="ptConsole2.copy();" alt="copy to clipboard" title="copy to clipboard"><input type="button" id="CLEARCONSOLE" onclick="ptConsole2.clear();" value="Clear" alt="clear console" title="clear console"><input type="button" id="HIDECONSOLE" onclick="ptConsole2.hide();" value="Hide" alt="hide console" title="hide console"><input type="button" id="CLOSECONSOLE" onclick="ptConsole2.deactive();" value="Close" alt="close console" title="close console"></div><div class="ps_typeahead psc_hidden" id="pt_typeahead0" style="display: none;"><div id="pt_typeahead" class="ps_box-typeahead">&nbsp;</div></div><div class="ps_box-announce ps_alert-normal" aria-live="polite" id="pt_liveregion">Student Center</div>
     <div id="pt_dnd_win0" class="psc_hidden-readable">Press Control+M to start dragging object</div>
@@ -304,10 +304,10 @@
     <div class="ps_box-group psc_layout psc_padding-none  ps_apps_content" id="win0sidedivPT_AG_LAYOUT_PTGP_PANEL_CONT_GB"><div class="ps_box-text psc_wrap ps_ag-initialization-text psc_hidden" id="win0sidediv$ICField3"><span class="ps-text">Please wait for the initialization to finish.</span>
     </div><div class="ps_box-group psc_layout ps_ag-navigation" id="win0sidedivPT_AG_LAYOUT_PT_AG_GROUPBOX5" aria-labelledby="PT_AG_LAYOUT_PT_AG_GROUPBOX5_LBL"><div class="ps_groupleth"><span class="ps-label" id="PT_AG_LAYOUT_PT_AG_GROUPBOX5_LBL">Navigation Area</span></div>
     <div id="win0sidegroupletPT_AG_LAYOUT_PT_AG_GROUPBOX5" class="ps_box-grouplet"><div onscroll="doScroll(this, false);" class="ps_box-group psc_layout ps_scrollable sbar sbar_v ps_scrollable_v psc_padding-none  ps_panel_content" id="win6divGROUPLET_CONTENTS"><div class="ps_box-group psc_layout ps_ag-header-buttons-wrapper psc_hidden" id="win6divPTGP_HEADERBUTTONS"><div class="ps_box-group psc_layout ps_ag-header-buttons psc_nowrap" id="win6divPTGP_GPLT_WRK_PTGP_HEADBTN_GB"><div aria-label="Navigation Buttons" role="navigation" class="ps_box-group psc_layout ps_ag-header-system-buttons psc_display-inlineblock" id="win6divPTGP_SYS_BUTTONS"><div class="ps_box-button ps_ag-button-previous ps_header-previous   psc_hidden" id="win6divPTGP_GPLT_WRK_PTGP_PREVIOUS_PB"><span class="ps-button-wrapper" title="Previous"><a id="PTGP_GPLT_WRK_PTGP_PREVIOUS_PB" class="ps-button" onclick="if (document.querySelector(ptgpPage.CSSID_CUSTOM_BUTTON_PREVIOUS)) {ptgpPage.openSystemButton(ptgpPage.CSSID_CUSTOM_BUTTON_PREVIOUS);} else {ptgpPage.openSystemButton(ptgpPage.CSSID_BUTTON_HIDDEN_PREVIOUS);}; return false;" href="javascript:void(0);" role="button"><img src="https://mycolleges.shr.nevada.edu/cs/spcssprd/cache/PT_GUIDED_PREV_ICON_ALT_1.svg" id="PTGP_GPLT_WRK_PTGP_PREVIOUS_PB$IMG" class="ps-img" alt=""><span class="ps-text">Previous</span></a></span></div><div class="ps_box-button ps_ag-button-next ps_header-next   psc_hidden" id="win6divPTGP_GPLT_WRK_PTGP_NEXT_PB"><span class="ps-button-wrapper" title="Next"><a id="PTGP_GPLT_WRK_PTGP_NEXT_PB" class="ps-button" onclick="if (document.querySelector(ptgpPage.CSSID_CUSTOM_BUTTON_NEXT)) {ptgpPage.openSystemButton(ptgpPage.CSSID_CUSTOM_BUTTON_NEXT);} else {ptgpPage.openSystemButton(ptgpPage.CSSID_BUTTON_HIDDEN_NEXT);}; return false;" href="javascript:void(0);" role="button"><span class="ps-text">Next</span><img src="https://mycolleges.shr.nevada.edu/cs/spcssprd/cache/PT_GUIDED_NEXT_ICON_ALT_1.svg" id="PTGP_GPLT_WRK_PTGP_NEXT_PB$IMG" class="ps-img" alt=""></a></span></div><div class="ps_box-button psc_image_only ps_header_button ps_ag-button-exit ps_nav-exit psc_hidden  " id="win6divPTGP_GPLT_WRK_PTGP_EXIT_PB"><span id="PTGP_GPLT_WRK_PTGP_EXIT_PB$span" class="ps-button-wrapper"><a id="PTGP_GPLT_WRK_PTGP_EXIT_PB" class="ps-button" role="button" ptgpid="PTGPTester-ExitButton" href="javascript:void(0);" onclick="cancelBubble(event);ptgpPage.returnToPreviousPage(); return false;" ptlinktgt="pt_peoplecode">Exit</a></span></div><div class="ps_box-button ps_ag-hidden-button-previous psc_hidden psc_disabled" id="win6divPTGP_GPLT_WRK_PTGP_H_PREVIOUS_PB" aria-disabled="true"><span id="PTGP_GPLT_WRK_PTGP_H_PREVIOUS_PB$span" class="ps-button-wrapper"><a id="PTGP_GPLT_WRK_PTGP_H_PREVIOUS_PB" class="ps-button" role="button" ptgpid="PTGPTester-PreviousButton" href="javascript:void(0);" onclick="cancelBubble(event);ptgpPage.openPreviousStep(); return false;" ptlinktgt="pt_peoplecode">Previous</a></span></div><div class="ps_box-button ps_ag-hidden-button-next psc_hidden psc_disabled" id="win6divPTGP_GPLT_WRK_PTGP_H_NEXT_PB" aria-disabled="true"><span id="PTGP_GPLT_WRK_PTGP_H_NEXT_PB$span" class="ps-button-wrapper"><a id="PTGP_GPLT_WRK_PTGP_H_NEXT_PB" class="ps-button" role="button" ptgpid="PTGPTester-NextButton" href="javascript:void(0);" onclick="cancelBubble(event);ptgpPage.openNextStep(); return false;" ptlinktgt="pt_peoplecode">Next</a></span></div></div></div></div><div role="navigation" aria-label="SHR Student Center Item List" class="ps_box-group psc_layout ps_ag-menu pt_keynav-list " id="win6divPTGP_GPLT_WRK_PTGP_STEP_SUB_GB"><div class="ps_box-group psc_layout ps_ag-navigation-list ps_ag-navigation-list-level1" id="win6div$ICField5"><ul class="ps_box-scrollarea ps-list ps_ag-step-group-list ps_ag-step-group-list-level1" id="win6divPTGP_STEPS_L1$0"><li ptgpid="ADMN_S202103151800541132236701" class="ps_box-scrollarea-row psc_rowact  ps-listitem psc_margin-none ps_ag-step" id="win6divPTGP_STEPS_L1_row$0"><div class="ps_box-edit psc_disabled psc_has_value psc_hidden" id="win6divPTGP_STEP_DVW_PTGP_STEP_ID$0"><div class="ps_box-label" id="win6divPTGP_STEP_DVW_PTGP_STEP_IDlbl$0"><span class="ps-label">Step ID</span></div><span class="ps_box-value" id="PTGP_STEP_DVW_PTGP_STEP_ID$0">ADMN_S202103151800541132236701</span>
-    </div><div class="ps_box-group psc_layout ps_ag-step-button-wrapper" id="win6div$ICField$11$$0"><div ptgpid="ADMN_S202103151800541132236701" onkeydown="cancelBubble(event);ptgpPage.stepKeyboardEventHandler(event, 'ADMN_S202103151800541132236701');" href="https://mycolleges.shr.nevada.edu/psc/spcssprd_newwin/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?NavColl=true" onclick="cancelBubble(event);if (!top.ptgpPage.openCustomStepButton('ADMN_S202103151800541132236701')) top.ptgpPage.openUrlWithWarning(this.getAttribute('href'), 'top.ptgpPage.selectStep(\'ADMN_S202103151800541132236701\');', false);return false;" onkeypress="cancelBubble(event);if (!top.ptgpPage.openCustomStepButton('ADMN_S202103151800541132236701')) top.ptgpPage.openUrlWithWarning(this.getAttribute('href'), 'top.ptgpPage.selectStep(\'ADMN_S202103151800541132236701\');', false);return false;" role="link" tabindex="0" stepprogress="100%" stepnumber="Step 1 of 1" steplabel="Student Center" steptitle="Student Center" class="ps_box-group psc_layout   ps_ag-step-button psc_selected ps_ag-step-first ps_ag-step-last psc_visited" id="win6divPTGP_STEP_DVW_PTGP_STEP_BTN_GB$0" aria-current="true" aria-controls="PT_CONTENT"><div class="ps_box-group psc_layout ps_ag-step-wrapper psc_nolabel psc_display-inlineblock" id="win6div$ICField$4$$0"><div class="ps_box-group psc_layout ps_ag-step-main psc_display-inlineblock" id="win6div$ICField$9$$0"><div class="ps_box-group psc_layout ps_ag-step-link-wrapper" id="win6div$ICField9$0"><div class="ps_box-img psc_margin-none ps_ag-step-link-icon psc_display-inlineblock" id="win6divPTGP_STEP_DVW_PTGP_STEP_ICON$0"><img src="https://mycolleges.shr.nevada.edu/cs/spcssprd/cache/PS_TEAM_LEARNING_L_FL_1.svg" class="ps-img" alt="" id="PTGP_STEP_DVW_PTGP_STEP_ICON$0" title="Student Center">
+    </div><div class="ps_box-group psc_layout ps_ag-step-button-wrapper" id="win6div$ICField$11$$0"><div ptgpid="ADMN_S202103151800541132236701" onkeydown="cancelBubble(event);ptgpPage.stepKeyboardEventHandler(event, 'ADMN_S202103151800541132236701');" href="https://mycolleges.shr.nevada.edu/psc/spcssprd_newwin/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?NavColl=true" onclick="cancelBubble(event);if (!top.ptgpPage.openCustomStepButton('ADMN_S202103151800541132236701')) top.ptgpPage.openUrlWithWarning(this.getAttribute('href'), 'top.ptgpPage.selectStep(\'ADMN_S202103151800541132236701\');', false);return false;" onkeypress="cancelBubble(event);if (!top.ptgpPage.openCustomStepButton('ADMN_S202103151800541132236701')) top.ptgpPage.openUrlWithWarning(this.getAttribute('href'), 'top.ptgpPage.selectStep(\'ADMN_S202103151800541132236701\');', false);return false;" role="link" tabindex="0" stepprogress="100%" stepnumber="Step 1 of 1" steplabel="Student Center" steptitle="Student Center" class="ps_box-group psc_layout   ps_ag-step-button psc_selected ps_ag-step-first ps_ag-step-last psc_visited" id="win6divPTGP_STEP_DVW_PTGP_STEP_BTN_GB$0" aria-current="true" aria-controls="PT_CONTENT"><div class="ps_box-group psc_layout ps_ag-step-wrapper psc_nolabel psc_display-inlineblock" id="win6div$ICField$4$$0"><div class="ps_box-group psc_layout ps_ag-step-main psc_display-inlineblock" id="win6div$ICField$9$$0"><div class="ps_box-group psc_layout ps_ag-step-link-wrapper" id="win6div$ICField9$0"><div class="ps_box-img psc_margin-none ps_ag-step-link-icon psc_display-inlineblock" id="win6divPTGP_STEP_DVW_PTGP_STEP_ICON$0"><img src="/cs/spcssprd/cache/PS_TEAM_LEARNING_L_FL_1.svg" class="ps-img" alt="" id="PTGP_STEP_DVW_PTGP_STEP_ICON$0" title="Student Center">
     </div><div class="ps_box-edit psc_disabled psc_wrappable psc_has_value psc_margin-none ps_ag-step-link-label psc_display-inlineblock psc_label-suppressed" id="win6divPTGP_STEP_DVW_PTGP_STEP_LABEL$0"><div class="ps_box-label" id="win6divPTGP_STEP_DVW_PTGP_STEP_LABELlbl$0"><span class="ps-label">Step Label</span></div><span class="ps_box-value" id="PTGP_STEP_DVW_PTGP_STEP_LABEL$0">Student Center</span>
-    </div></div></div></div><div class="ps_box-staticimg psc_margin-none ps_ag-step-group-collapsed psc_display-inlineblock" id="win6div$ICField17$0"><img src="https://mycolleges.shr.nevada.edu/cs/spcssprd/cache/PT_ACCORD_OPEN_NUI_1.svg" class="ps-staticimg" alt="(select to expand or collapse child steps)" title="(select to expand or collapse child steps)">
-    </div><div class="ps_box-staticimg psc_margin-none ps_ag-step-group-expanded psc_display-inlineblock" id="win6div$ICField$19$$0"><img src="https://mycolleges.shr.nevada.edu/cs/spcssprd/cache/PT_ACCORD_CLOSE_NUI_1.svg" class="ps-staticimg" alt="(select to expand or collapse child steps)" title="(select to expand or collapse child steps)">
+    </div></div></div></div><div class="ps_box-staticimg psc_margin-none ps_ag-step-group-collapsed psc_display-inlineblock" id="win6div$ICField17$0"><img src="/cs/spcssprd/cache/PT_ACCORD_OPEN_NUI_1.svg" class="ps-staticimg" alt="(select to expand or collapse child steps)" title="(select to expand or collapse child steps)">
+    </div><div class="ps_box-staticimg psc_margin-none ps_ag-step-group-expanded psc_display-inlineblock" id="win6div$ICField$19$$0"><img src="/cs/spcssprd/cache/PT_ACCORD_CLOSE_NUI_1.svg" class="ps-staticimg" alt="(select to expand or collapse child steps)" title="(select to expand or collapse child steps)">
     </div></div></div><div class="ps_box-group psc_layout ps_ag-step-header-content-wrapper psc_hidden" id="win6div$ICField11$0"><div class="ps_box-group psc_layout ps_ag-step-header-content psc_nolabel" id="win6divPTGP_STEP_DVW_PTGP_STEP_HEAD_GB$0"><div class="ps_box-group ps_box-title ps_ag-step-header-step-title" id="win6divPTGP_STEP_DVW_PTGP_STEP_HEAD_TIT$0"><h1 id="PTGP_STEP_DVW_PTGP_STEP_HEAD_TIT$0" class="ps_pagetitle"><span class="ps-text" id="PTGP_STEP_DVW_PTGP_STEP_HEAD_TIT$0lbl">Student Center</span></h1></div></div></div></li></ul></div></div></div>
     </div>
     </div></div></div></div></div><div class="pst_panel-side1-bottom psc_hidden" id="PT_SIDE_BOTTOM"></div></div></div></div>
@@ -347,7 +347,7 @@
                 var saveWarningKeys_win0 = "";
                 var firstFocusID = null;
                 var bPTDrag = false;
-                var refererURL = 'https://mycolleges.shr.nevada.edu/psc/spcssprd/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_AGSTARTPAGE_NUI.GBL?CONTEXTIDPARAMS=TEMPLATE_ID%3aPTPPNAVCOL&scname=ADMN_SHR_STUDENT_CENTER_NC_CL&PanelCollapsible=Y&PTPPB_GROUPLET_ID=SHR_STUDENT_CENTER_TL_FL&CRefName=SHR_STUDENT_CENTER_TL_FL_1&AJAXTRANSFER=Y';
+                var refererURL = '/psc/spcssprd/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_AGSTARTPAGE_NUI.GBL?CONTEXTIDPARAMS=TEMPLATE_ID%3aPTPPNAVCOL&scname=ADMN_SHR_STUDENT_CENTER_NC_CL&PanelCollapsible=Y&PTPPB_GROUPLET_ID=SHR_STUDENT_CENTER_TL_FL&CRefName=SHR_STUDENT_CENTER_TL_FL_1&AJAXTRANSFER=Y';
                 var isNewSaveWarn = true;
                 var bAccessibility_win0 =false;
                 var bFMode =false;
@@ -357,8 +357,8 @@
                 var bTabOverTB_win0 = false;
                 var bTabOverPg_win0 = false;
                 var bTabOverNonPS_win0 = false;
-                var strCurrUrl='https://mycolleges.shr.nevada.edu/psp/spcssprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?EMPLID=2002083990&PAGE=NV_COMM_TRANS';
-                var strReqURL='https://mycolleges.shr.nevada.edu/psp/spcssprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?EMPLID=2002083990&PAGE=NV_COMM_TRANS&NavColl=true&ICAGTarget=start&ICAJAXTrf=true';
+                var strCurrUrl='/psp/spcssprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?EMPLID=2002083990&PAGE=NV_COMM_TRANS';
+                var strReqURL='/psp/spcssprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?EMPLID=2002083990&PAGE=NV_COMM_TRANS&NavColl=true&ICAGTarget=start&ICAJAXTrf=true';
                 var bIncInNavigation='T';
                 var szPinCrefID='HC_SSS_STUDENT_CENTER';
                 var szPinCrefReg='T';
@@ -413,7 +413,7 @@
                 if (typeof(bCleanHtml) == 'undefined')
                     var bCleanHtml = false;
                 setupTimeout2();
-                var postUrl_win0='https://mycolleges.shr.nevada.edu/psc/spcssprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL';
+                var postUrl_win0='/psc/spcssprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL';
                 function aAction_win0(form, id, params, bAjax, bPrompt, sAjaxTrfUrl, bWarning, sScriptAfter, nTrfURLType)
                 {
                 setupTimeout2();
@@ -529,7 +529,7 @@
                  oWin.setEventHandlers_win0('ICFirstAnchor_win0', 'ICLastAnchor_win0', false);
                 top.window.clearCustomGroup();
                 if (top.window.isFModeLayout() && (typeof top.window.initHelp == 'function')) top.window.initHelp();
-                postUrl_win0='https://mycolleges.shr.nevada.edu/psc/spcssprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL';
+                postUrl_win0='/psc/spcssprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL';
                 try{top.window.ptgpPage.setComponentTitle();}catch(e){}
                 setFocus_win0('HTMLAREA',-1);
                 ptLoadingStatus_empty(0);
@@ -553,7 +553,7 @@
                 <body tabindex="-1" class="PSPAGE">
                 <div id="pt_envinfo_win0" browser="CHROME/114.0/WIN10" user="2002083990" db="CMPSPRD/ORACLE" appserv="//amazon2.scsr.nevada.edu:8020" toolsrel="8.59.14"></div>
                 <div id="pt_pageinfo_win0" page="SSS_STUDENT_CENTER" component="SSS_STUDENT_CENTER" menu="SA_LEARNER_SERVICES" mode="CLASSIC"><!----></div>
-                <form id="SSS_STUDENT_CENTER" name="win0" method="post" action="https://mycolleges.shr.nevada.edu/psc/spcssprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL" autocomplete="off" class="PSForm">
+                <form id="SSS_STUDENT_CENTER" name="win0" method="post" action="/psc/spcssprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL" autocomplete="off" class="PSForm">
                 <div class="ps_box-toolshiddens" id="win0divPSTOOLSHIDDENS"><div class="ps_modalmask_cover psc_hidden" id="pt_modalMaskCover">&nbsp;</div><div class="ps_modalmask psc_hidden" id="pt_modalMask">&nbsp;</div><div id="pt_modals" class="PSMODAL"><div id="ptModalShadow" class="popupDragFrame" style="cursor:nw-resize">&nbsp;</div></div>
                 <div class="ps_ajax_console psc_hidden" id="pt_console"><input type="button" id="COPYCONSOLE" value="Copy" onclick="ptConsole2.copy();" alt="copy to clipboard" title="copy to clipboard"><input type="button" id="CLEARCONSOLE" onclick="ptConsole2.clear();" value="Clear" alt="clear console" title="clear console"><input type="button" id="HIDECONSOLE" onclick="ptConsole2.hide();" value="Hide" alt="hide console" title="hide console"><input type="button" id="CLOSECONSOLE" onclick="ptConsole2.deactive();" value="Close" alt="close console" title="close console"></div><div class="ps_typeahead psc_hidden" id="pt_typeahead0" style="display: none;"><span id="pt_typeahead" class="spanTextDropdown">&nbsp;</span></div><div id="WAIT_win0" style="display: none; position: absolute; right: 0px; z-index: 99991; visibility: hidden;"><img id="processing" align="left" src="/cs/spcssprd/cache/PT_PROCESSING_1.gif" alt="Processing... please wait" title="Processing... please wait"></div>
                  <div style="visibility: hidden; display: none; position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;" aria-relevant="text additions" aria-live="assertive" aria-atomic="true" class="psc_processing psc_hidden" id="Delayed_win0"></div><div aria-relevant="text additions" aria-live="assertive" aria-atomic="true" id="SAVED_win0" style="display: none; position: absolute; right: 0px; z-index: 99991; visibility: hidden;"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><img src="/cs/spcssprd/cache/PTPORTAL_POPBOX_LEFT_1.gif" width="7" height="39" border="0" alt=""></td><td id="saveWait_win0" width="35" align="center" valign="middle" background="/cs/spcssprd/cache/PTPORTAL_POPBOX_CENTER_1.gif"><img src="/cs/spcssprd/cache/PT_LOADER_1.gif" width="24" height="24" alt=""></td><td nowrap="nowrap" background="/cs/spcssprd/cache/PTPORTAL_POPBOX_CENTER_1.gif"><span aria-relevant="text additions" aria-live="assertive" aria-atomic="true" id="ptStatusText_win0" dir="ltr" class="PSPROCESSING">&nbsp;</span></td><td><img src="/cs/spcssprd/cache/PTPORTAL_POPBOX_RIGHT_1.gif" width="6" height="39" alt=""></td><td>&nbsp;</td></tr></tbody></table></div><div class="x" id="win0divPSHIDDENFIELDS" style="display:none"><input type="hidden" name="ICType" id="ICType" value="Panel">
@@ -1956,7 +1956,7 @@
                 </tbody></table>
                 <!-- Embedded Help popup End  -->
                 <div id="pt_fakeBC" style="display:none"><ul><li class="pthnavhiearchysep pthbcdispiblock">&nbsp;</li>
-                <li class="pthnavbarcref ptabncrefbc ptfakercfbc pthbcdispiblock" id="pthnavbccref_PT_FAKE_SSS_STUDENT_CENTER_GBL"><a class="abnanchor" href="https://mycolleges.shr.nevada.edu/psc/spcssprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?NavColl=true&amp;ICAGTarget=start&amp;ICAJAXTrf=true" id="pthnavbccrefanc_SSS_STUDENT_CENTER_GBL" role="menuitem" target="TargetContent">Student Center</a><div class="pthnavcrefimg">&nbsp;</div></li></ul></div></form>
+                <li class="pthnavbarcref ptabncrefbc ptfakercfbc pthbcdispiblock" id="pthnavbccref_PT_FAKE_SSS_STUDENT_CENTER_GBL"><a class="abnanchor" href="/psc/spcssprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?NavColl=true&amp;ICAGTarget=start&amp;ICAJAXTrf=true" id="pthnavbccrefanc_SSS_STUDENT_CENTER_GBL" role="menuitem" target="TargetContent">Student Center</a><div class="pthnavcrefimg">&nbsp;</div></li></ul></div></form>
                 <div id="popupDragFrame" class="popupDragFrame">&nbsp;</div>
                 <!-- Mouse-over popup Begin -->
                 <table id="win0MOpopupContainer" width="20" border="0" cellpadding="0" cellspacing="0" style="display:none; position:absolute; top:0; left:0;" onmouseover="MOpopupObj_win0.StartPopup('win0MOpopupContainer', '');" onmouseout="MOpopupObj_win0.StopPopup();"><tbody><tr>
@@ -1968,7 +1968,7 @@
                 
                 <script language="JavaScript">
                 var nMaxSavedStates=5;
-                var sHistURL="https://mycolleges.shr.nevada.edu/psc/spcssprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?page=NV_COMM_TRANS&NavColl=true&ICAGTarget=start&ICAJAXTrf=true";
+                var sHistURL="/psc/spcssprd/EMPLOYEE/SA/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL?page=NV_COMM_TRANS&NavColl=true&ICAGTarget=start&ICAJAXTrf=true";
                 var bCloseModal = false;
                 var bICList = false;
                 var bHtml5Doc = true;
@@ -2007,7 +2007,7 @@
     if (typeof(setPSTouchHandlerDoc) != 'undefined' && setPSTouchHandlerDoc != null) setPSTouchHandlerDoc ();
     var nMaxSavedStates=5;
     bSearchDialog_empty =false;
-    var sHistURL="https://mycolleges.shr.nevada.edu/psc/spcssprd/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_AGSTARTPAGE_NUI.GBL?page=PT_AGSTARTPAGE_NUI&CONTEXTIDPARAMS=TEMPLATE_ID%3aPTPPNAVCOL&scname=ADMN_SHR_STUDENT_CENTER_NC_CL&PanelCollapsible=Y&PTPPB_GROUPLET_ID=SHR_STUDENT_CENTER_TL_FL&CRefName=SHR_STUDENT_CENTER_TL_FL_1&AJAXTRANSFER=Y";
+    var sHistURL="/psc/spcssprd/EMPLOYEE/SA/c/NUI_FRAMEWORK.PT_AGSTARTPAGE_NUI.GBL?page=PT_AGSTARTPAGE_NUI&CONTEXTIDPARAMS=TEMPLATE_ID%3aPTPPNAVCOL&scname=ADMN_SHR_STUDENT_CENTER_NC_CL&PanelCollapsible=Y&PTPPB_GROUPLET_ID=SHR_STUDENT_CENTER_TL_FL&CRefName=SHR_STUDENT_CENTER_TL_FL_1&AJAXTRANSFER=Y";
     var bCloseModal = false;
     var bICList = false;
     var bHtml5Doc = true;
