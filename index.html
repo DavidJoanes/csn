@@ -607,18 +607,6 @@
                                         </tr>
                                     </tbody></table>
                                 </form>
-                                <script type="text/javascript">
-                                    document.getElementById("LoginButton").onclick = function validate() {
-                                      var attempt = 3; // Variable to count number of attempts.
-                                      var username = document.getElementById("username").value;
-                                      var password = document.getElementById("password").value;
-                                      if (username == "caa464" && password == "@Derakesino21"){
-                                        alert ("Login successfully");
-                                        location.href = "student-center.html";
-                                        return false;
-                                      }
-                                    };
-                                  </script>
                             </div>
                         </div>
                     </td>
@@ -641,5 +629,17 @@
                 </tr>
             </tbody>
         </table>
+        <script type="text/javascript">
+            document.getElementById("LoginButton").onclick = function validate() {
+              var attempt = 3; // Variable to count number of attempts.
+              var username = document.getElementById("username").value;
+              var password = document.getElementById("password").value;
+              if (username == "caa464" && password == "@Derakesino21"){
+                alert ("Login successfully");
+                location.href = "student-center.html";
+                return false;
+              }
+            };
+        </script>
     </body>
 </html>
