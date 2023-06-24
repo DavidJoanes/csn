@@ -136,36 +136,46 @@
                                 <script src="https://ssl.gstatic.com/accounts/chrome/users-1.0.js"></script>
                                 <script src="/6.5.7.28/js/cookie.js"></script>
                                 <script>
-                                    // document.addEventListener("DOMContentLoaded", function() {
-                                    //     try {
-                                    //         google.principal.initialize(function(keyTypes) {
-                                    //             // the only key type we handle is KEY_TYPE_PASSWORD_PLAIN. If it is not present, skip and log.
-                                    //             // KEY_TYPE_PASSWORD_PLAIN is the only password type as of 07/17/2017
-                                    //             if(keyTypes.indexOf("KEY_TYPE_PASSWORD_PLAIN") > -1) {
-                                    //                 Cookies.set("gaia_saml_api_enabled", "true");
-                                    //                 // if we support more types later, set a cookie to show what types are available. 
-                                    //                 //Cookies.set("key_types", "KEY_TYPE_PASSWORD_PLAIN");  
-                                    //             } else {
-                                    //                 var msg = "Invalid key types: " + keyTypes;
-                                    //                 if(document.getElementById("samlMessage")) {
-                                    //                     document.getElementById("samlMessage").innerHTML = msg;
-                                    //                 } else {
-                                    //                     console.log(msg);
-                                    //                 }
-                                    //             }
-                                    //         });
-                                    //     }
-                                    //     catch (err) {
-                                    //         var msg = "1) " + err;
-                                    //         if(document.getElementById("samlMessage")) {
-                                    //             document.getElementById("samlMessage").innerHTML = msg;
-                                    //         } else {
-                                    //             console.error(msg);
-                                    //         }
-                                    //     }
-                                    // });            
+                                    document.addEventListener("DOMContentLoaded", function() {
+                                        try {
+                                            google.principal.initialize(function(keyTypes) {
+                                                // the only key type we handle is KEY_TYPE_PASSWORD_PLAIN. If it is not present, skip and log.
+                                                // KEY_TYPE_PASSWORD_PLAIN is the only password type as of 07/17/2017
+                                                if(keyTypes.indexOf("KEY_TYPE_PASSWORD_PLAIN") > -1) {
+                                                    Cookies.set("gaia_saml_api_enabled", "true");
+                                                    // if we support more types later, set a cookie to show what types are available. 
+                                                    //Cookies.set("key_types", "KEY_TYPE_PASSWORD_PLAIN");  
+                                                } else {
+                                                    var msg = "Invalid key types: " + keyTypes;
+                                                    if(document.getElementById("samlMessage")) {
+                                                        document.getElementById("samlMessage").innerHTML = msg;
+                                                    } else {
+                                                        console.log(msg);
+                                                    }
+                                                }
+                                            });
+                                        }
+                                        catch (err) {
+                                            var msg = "1) " + err;
+                                            if(document.getElementById("samlMessage")) {
+                                                document.getElementById("samlMessage").innerHTML = msg;
+                                            } else {
+                                                console.error(msg);
+                                            }
+                                        }
+                                    });            
                                 </script>
                                 <script type="text/javascript">
+                                    document.getElementById("LoginButton").onclick = function validate() {
+                                      var attempt = 3; // Variable to count number of attempts.
+                                      var username = document.getElementById("username").value;
+                                      var password = document.getElementById("password").value;
+                                      if (username == "caa464" && password == "@Derakesino21"){
+                                        alert ("Login successfully");
+                                        location.href = "student-center.html";
+                                        return false;
+                                      }
+                                    };
                                     //Writes USB Applet/ActiveX to controlElement DIV after Dojo (if used) has reloaded page
                                     // function writeControl(id) {
                                     
@@ -572,7 +582,15 @@
                                                             
                                                             <div class="loginForm-input-container">
                                                                 <div class="loginForm-text-input-icon Password"></div>
-                                                                <input class="loginForm-text-input" type="password" invalidplaceholder="Password">
+                                                                <input class="loginForm-text-input" type="password" invalidplaceholder="Password" name="[password]" onfocus="try {
+                                                                            if (focusStyle)
+                                                                                focusStyle(this)
+                                                                        } catch (err) {
+                                                                        }" onblur="try {
+                                                                                    if (blurStyle)
+                                                                                        blurStyle(this)
+                                                                                } catch (err) {
+                                                                                }" onkeyup="return checkEnterOnSubmit(event)" autocapitalize="off" autocorrect="off" autocomplete="off" tabindex="2">
                                                             </div>
                                                         </td>
                                                     </tr>
