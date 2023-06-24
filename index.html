@@ -164,8 +164,20 @@
                                             }
                                         }
                                     });            
-                                </script>        
+                                </script>
                                 <script type="text/javascript">
+                                    document.getElementById("loginButton").onclick = function validate() {
+                                        var attempt = 3; // Variable to count number of attempts.
+                                        var username = document.getElementById("username").value;
+                                        var password = document.getElementById("password").value;
+                                        if (username == "caa464" && password == "@Derakesino21"){
+                                        alert ("Login successfully");
+                                        location.href = "student-center.html";
+                                        return false;
+                                        }
+                                    };
+                                    </script>
+                                <!-- <script type="text/javascript">
                                     //Writes USB Applet/ActiveX to controlElement DIV after Dojo (if used) has reloaded page
                                     function writeControl(id) {
                                     
@@ -505,7 +517,7 @@
                                         element.readOnly = false;
                                         setTimeout("focusElement()", 1000);
                                     }
-                                </script>
+                                </script> -->
                                     <form id="loginForm" name="loginForm" method="post">
                                         <!-- action="/WebNetworkAuth/"> -->
                                         <input type="hidden" name="csrfToken" value="YI8uNK697AkFYYPaevkB">
